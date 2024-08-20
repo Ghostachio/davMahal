@@ -5,11 +5,11 @@ import H from "../../public/Hamid.webp";
 export default function Contact() {
   return (
     <section>
-      <div className="p-12">
+      <div className=" p-12 ">
         <img
           src={view}
           alt="view"
-          className=" w-full rounded-md object-cover object-bottom "
+          className=" w-full rounded-md object-cover object-bottom"
         />
       </div>
       <div>
@@ -27,7 +27,7 @@ export default function Contact() {
           through the houses ... here you are !
         </p>
       </div>
-      <div className="grid grid-cols-4 w-full pt-20 pl-32 pr-32 pb-20 gap-8">
+      <div className="flex flex-wrap w-full pt-20 pl-32 pr-32 pb-20 gap-8 md:grid md:grid-cols-4 ">
         <img
           src={R}
           alt="R"
