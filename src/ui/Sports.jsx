@@ -1,17 +1,17 @@
 export default function Sports() {
   return (
     <section className="text-center text-5xl  bg-white">
-      <div className="p-24">
+      <div className="p-12 md:p-24">
         <h1 className="pb-10 text-orange-300 uppercase font-bold tracking-widest">
           sports
         </h1>
-        <h2 className="p-20 text-cyan-700 font-semibold tracking-wider">
+        <h2 className=" text-cyan-700 font-bold tracking-wide text-xl md:p-30 md:text-5xl">
           A lot of sportive activities are available at DavMahal following the
-          period of the year :
+          period of the year
         </h2>
       </div>
       <div>
-        <ul className="flex flex-col gap-20 pl-48 pr-48 text-4xl tracking-widest text-slate-600">
+        <ul className="flex flex-col gap-20 pl-12 pr-12 text-sm  tracking-widest text-slate-600 md:pl-48 md:pr-48 md:text-2xl">
           <li>
             - Surf and Bodyboard Spot / best waves during spring & winter on 2
             well known spots La Grotte (good level) or La Couronne (medium

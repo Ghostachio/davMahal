@@ -3,7 +3,7 @@ import domes from "../../public/58701f_c8875d0c275e493a90e52e9eb679688f~mv2_d_42
 export default function Hero() {
   return (
     <section className="flex flex-col justify-start items-center bg-white">
-      <div className=" pt-6 pr-20 pl-20 flex justify-center w-full h-[35rem] pb-6">
+      <div className=" pt-6 pr-2 pl-2 flex justify-center w-full h-[20rem] pb-6 md:pl-20 md:pr-20 md:h-[35rem]">
         <img
           src={domes}
           alt="Domes-view"
@@ -11,14 +11,14 @@ export default function Hero() {
         />
       </div>
       <div>
-        <h1 className="text-7xl text-center pt-12 pb-4 font-semibold  text-cyan-700 bg-transparent ">
+        <h1 className="text-5xl text-center pt-12 pb-4 font-semibold  text-cyan-700 bg-transparent md:text-7xl">
           Dav Mahal
         </h1>
-        <h2 className="text-5xl text-center pb-3 text-orange-200 ">
+        <h2 className="text-3xl text-center pb-3 text-orange-200 md:text-5xl ">
           Ecological Guesthouse
         </h2>
       </div>
-      <div className="pt-20 pl-12 pr-12 md:pl-32 md:pr-32">
+      <div className="pt-20 pl-12 pr-12 text-center md:pl-32 md:pr-32">
         <p className="text-xl">
           This telluric piece of land found Olivier in 2011. Back then, he
           wanted to make a YogAshram with an Indian Yogini. It took 6 years of
