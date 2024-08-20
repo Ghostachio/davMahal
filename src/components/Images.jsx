@@ -9,7 +9,7 @@ import imgseven from "../../public/4.webp";
 export default function Images() {
   return (
     <div>
-      <div className="md:grid md:grid-cols-4 md:grid-rows-3 md:gap-9 md:p-20 w-full flex flex-col pr-28 pl-28 pt-28 gap-12 pb-28">
+      <div className="md:grid md:grid-cols-4 md:grid-rows-3 md:gap-9 md:p-20 w-full flex flex-col pr-4 pl-4 pt-12 gap-10 pb-12">
         <img
           className="col-span-1 object-cover h-full transition duration-300 ease-in-out hover:scale-105 rounded-xl "
           src={imgOne}

@@ -18,7 +18,7 @@ export default function Hero() {
           Ecological Guesthouse
         </h2>
       </div>
-      <div className="pt-20 pl-32 pr-32">
+      <div className="pt-20 pl-12 pr-12 md:pl-32 md:pr-32">
         <p className="text-xl">
           This telluric piece of land found Olivier in 2011. Back then, he
           wanted to make a YogAshram with an Indian Yogini. It took 6 years of
